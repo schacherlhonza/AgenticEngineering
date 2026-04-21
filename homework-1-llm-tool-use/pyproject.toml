@@ -1,0 +1,11 @@
+[project]
+name = "homework-1-llm-tool-use"
+version = "0.1.0"
+description = "LLM + tool use (weather lookup) with OpenAI gpt-4o-mini"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "openai>=1.66.3",
+    "python-dotenv>=1.0.1",
+    "requests>=2.32.0",
+]
